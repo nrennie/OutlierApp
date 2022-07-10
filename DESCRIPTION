@@ -1,0 +1,36 @@
+Package: OutlierApp
+Title: Shiny dashboard for detecting mulit-leg outliers in a network
+Version: 0.0.1
+Authors@R: 
+    person(given = "Nicola",
+           family = "Rennie",
+           role = c("aut", "cre"),
+           email = "nrennie35@gmail.com")
+Description: Shiny dashboard for detecting mulit-leg outliers in a network. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Depends:
+    R (>= 4.2)
+Imports:
+    dashboardthemes,
+    DT,
+    fda,
+    fdapace,
+    igraph,
+    gridExtra,
+    MASS,
+    mrfDepth,
+    plotly,
+    POT,
+    RColorBrewer,
+    reshape,
+    shiny,
+    shinydashboard,
+    shinyWidgets,
+    tidyverse,
+    visNetwork,
+    magrittr
+LazyData: true
